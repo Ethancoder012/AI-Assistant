@@ -1,0 +1,98 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hi","hey","wake up","jarvis"
+
+            ],
+            "responses":["Hello sir","How are you sir","Always for you sir","Hello","Here's your assistant."
+
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","goodbye","see you later","sleep","exit"],
+            "responses":["Bye","see ya","I am going","Bye Sir","Good Bye","It'll be Nice to meet you again.","See you later"]
+
+
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how you","are you fine?","are you good"],
+            "responses":["Fine","Perfect","Cool","Like you","Are you Fine? I'm Fine."]
+
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","what is your name","who are you","what are you"],
+            "responses":["Jarvis","I am Jarvis","An A.I Assistant","My name is Jarvis","Great Assistant"]
+
+        },
+        
+       
+       
+       
+    
+        
+        {
+            "tag":"time",
+            "patterns":["what is time","time","samay","what is the time"
+            ],
+            "responses":["time"
+            
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["what is date","date","samay","what is the date"
+            ],
+            "responses":["date"
+            
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["what is day","day","din","what's the day", "today0"
+            ],
+            "responses":["day"
+            
+            ]
+        },   
+        {
+            "tag":"wikipedia",
+            "patterns":["tell me about","information","about","information about"],
+            "responses":["wikipedia"
+            
+           ]
+        },
+
+        {
+            "tag":"youtube",
+            "patterns":["open youtube and play","from youtube play","let's watch a","play"],
+            "responses":["youtube"
+            
+           ]
+        },
+         {
+             "tag":"google",
+             "patterns":["Google search","google","search","who is","what is","why is"],
+             "responses":["google"
+            
+            ]
+         },
+         {
+             "tag":"open",
+             "patterns":["Jarvis open","open","launch","please open","please launch"],
+             "responses":["open"]
+             
+         }
+         
+
+
+
+            
+        
+        
+
+    ]
+}
